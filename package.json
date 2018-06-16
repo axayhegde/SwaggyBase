@@ -12,9 +12,12 @@
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
     "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
     "express": "^4.16.3",
     "mongoose": "^5.1.1",
     "mongoose-validator": "^2.0.2",
-    "nodemon": "^1.17.4"
+    "nodemailer": "^4.6.6",
+    "nodemon": "^1.17.4",
+    "random-string": "^0.2.0"
   }
 }

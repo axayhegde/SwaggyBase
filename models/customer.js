@@ -1,49 +1,54 @@
-    var mongoose = require('mongoose');
-    var Schema = mongoose.Schema;
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
-    var customerSchema = new Schema({
-        customerId: {
-            type: String,
-            required: true,
-            index: { unique: true }
-            },
-        customerEmail : {
-            type: String,
-            require: 'Email Address is required',
-        },
-        firstName: {
-            type: String,
-            required: true,
-            match : /^[a-z ,.'-]{1,25}$/i
-        },
-        lastName: {
-            type: String,
-            required: true,
-            match : /^[a-z ,.'-]{1,25}$/i
-        },
-        phoneNumber: {
-            type: String,
-            required: true,
-            index: { unique: true },
-            match : /^[0-9]{10}$/
-        },
-        password: {
-            type: String,
-            required: true
-        },
-        confirmPassword: {
-            type: String,
-            required: true
-        },
-        address: {
-            type: String,
-            required: true,
-            match : /^[a-z 0-9,.'-]{20,300}$/i
-        },
-        paymentMethods : [{
-            id : {type : String, required:true},
-            type:{type: String, required: true}
-        }],
-    });
+var customerSchema = new Schema({
+    Customer_Id: {
+        type: String,
+        required: true,
+        index: {unique: true}
+    },
+    Customer_Email: {
+        type: String,
+        require: 'Email Address is required',
+    },
+    Customer_FirstName: {
+        type: String,
+        required: true,
+        match: /^[a-z ,.'-]{1,25}$/i
+    },
+    Customer_LastName: {
+        type: String,
+        required: true,
+        match: /^[a-z ,.'-]{1,25}$/i
+    },
+    Customer_Phone: {
+        type: String,
+        required: true,
+        index: {unique: true},
+        match: /^[0-9]{10}$/
+    },
+    Customer_Password: {
+        type: String,
+        required: true
+    },
+    Customer_Image: {
+        type: String,
+    },
+    Customer_Token: {
+        type: String,
+        required: true
+    },
+    Customer_Active: {
+        type: Boolean,
+        default: false
+    },
+    Customer_Address: {
+        Customer_Address_Id: {type: String, required: true},
+        Customer_Id: {type: String, required: true},
+        Address_Locality: {type: String, required: true},
+        Address_City: {type: String, required: true},
+        Address_Pincode: {type: String, required: true}
+    }
+});
 
-    module.exports = mongoose.model('Customer',customerSchema);
+module.exports = mongoose.model('Customer', customerSchema);
