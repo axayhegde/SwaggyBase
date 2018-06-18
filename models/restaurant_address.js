@@ -21,6 +21,6 @@ let restaurantAddressSchema = new Schema ({
     Address_Pincode: {
         type: Number
     }
-})
+});
 
 module.exports = mongoose.model('Restaurant_Address', restaurantAddressSchema);

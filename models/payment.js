@@ -12,7 +12,7 @@ var paymentSchema = new Schema({
     },
     Amount: {
         type: Number
-    },
+    }
 });
 
 module.exports = mongoose.model('Payment', paymentSchema);

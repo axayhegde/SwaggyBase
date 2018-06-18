@@ -48,7 +48,8 @@ var customerSchema = new Schema({
         Address_Locality: {type: String, required: true},
         Address_City: {type: String, required: true},
         Address_Pincode: {type: String, required: true}
-    }
+    },
+    Bookmark_Address : { type: mongoose.Schema.Types.ObjectId , ref : 'Bookmark_Address'}
 });
 
 module.exports = mongoose.model('Customer', customerSchema);
