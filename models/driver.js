@@ -4,6 +4,11 @@ const Schema = mongoose.Schema;
 
 const driverSchema = new Schema({
 
+    Driver_Id:{
+        type: String,
+        required: true,
+        index: {unique: true}
+    },
     Driver_Name:{
         type: String,
         required: true,
