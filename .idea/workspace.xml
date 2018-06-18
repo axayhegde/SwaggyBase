@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df0e391-d8da-434e-ac64-6cd1a6daf6d3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/driverRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Ratings.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Ratings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/driver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/adminRoutes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,47 +23,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/customer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="customerRoutes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/customerRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="342">
+              <caret line="127" selection-start-line="127" selection-end-line="137" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/adminRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/driver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver_address.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/driver_address.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="378">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ratings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Ratings.js">
+      <file leaf-file-name="order_status.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/order_status.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="180">
+              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -64,52 +89,26 @@
       <file leaf-file-name="payment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/payment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wallet.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/wallet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="56" lean-forward="true" selection-end-line="18" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/driver.js">
+      <file leaf-file-name="restaurantRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/restaurantRoutes.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="customerRegister.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/customerRegister.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="driverRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/driverRoutes.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[string]</find>
       <find>number</find>
       <find>addressRegex</find>
       <find>customer</find>
@@ -138,6 +137,8 @@
       <find>Rating</find>
       <find>payment</find>
       <find>wallet</find>
+      <find>var</find>
+      <find>Schema.Types.String</find>
     </findStrings>
     <replaceStrings>
       <replace>driver</replace>
@@ -166,13 +167,17 @@
         <option value="$PROJECT_DIR$/views/customerRegister.html" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/models/restaurant.js" />
-        <option value="$PROJECT_DIR$/routes/customerRoutes.js" />
         <option value="$PROJECT_DIR$/models/customer.js" />
         <option value="$PROJECT_DIR$/models/Ratings.js" />
-        <option value="$PROJECT_DIR$/models/order.js" />
-        <option value="$PROJECT_DIR$/models/payment.js" />
         <option value="$PROJECT_DIR$/models/wallet.js" />
         <option value="$PROJECT_DIR$/models/admin.js" />
+        <option value="$PROJECT_DIR$/routes/customerRoutes.js" />
+        <option value="$PROJECT_DIR$/routes/adminRoutes.js" />
+        <option value="$PROJECT_DIR$/models/driver.js" />
+        <option value="$PROJECT_DIR$/models/order_status.js" />
+        <option value="$PROJECT_DIR$/models/payment.js" />
+        <option value="$PROJECT_DIR$/models/order.js" />
+        <option value="$PROJECT_DIR$/models/driver_address.js" />
       </list>
     </option>
   </component>
@@ -286,12 +291,12 @@
       <workItem from="1529150665543" duration="266000" />
       <workItem from="1529209219013" duration="598000" />
       <workItem from="1529226143992" duration="1904000" />
-      <workItem from="1529299794327" duration="1868000" />
+      <workItem from="1529299794327" duration="4476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59488000" />
+    <option name="totallyTimeSpent" value="62096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -301,10 +306,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27759564" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27710843" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,7 +319,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,28 +347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/restaurant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Driver.js" />
     <entry file="file://$PROJECT_DIR$/models/order.js" />
     <entry file="file://$PROJECT_DIR$/routes/driverRoutes.js" />
     <entry file="file://$PROJECT_DIR$/routes/customerRoutes.js">
@@ -517,7 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/driverRoutes.js" />
     <entry file="file://$PROJECT_DIR$/views/customerRegister.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -535,34 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/customerRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/driver.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Ratings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/payment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -580,10 +538,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/restaurantRoutes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/driverRoutes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/admin.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/customerRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="127" selection-start-line="127" selection-end-line="137" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/adminRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/driver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/order_status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/driver_address.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>

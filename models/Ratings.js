@@ -20,15 +20,15 @@ var ratingsSchema = new Schema({
         type: String
     },
     Customer_Customer_Id: {
-        type : mongoose.Schema.Types.String,
+        type : mongoose.Schema.Types.ObjectId,
         ref : 'customer'
     },
     Driver_Driver_Id: {
-        type : mongoose.Schema.Types.String,
+        type : mongoose.Schema.Types.ObjectId,
         ref : 'driver'
     },
     Restaurant_Restaurant_Id: {
-        type : mongoose.Schema.Types.String,
+        type : mongoose.Schema.Types.ObjectId,
         ref : 'restaurant'
     },
 });

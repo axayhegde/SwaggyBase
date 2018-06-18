@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var PaymentSchema = new Schema({
+var paymentSchema = new Schema({
     Payment_Id: {
         type: String,
         required: true,
@@ -15,4 +15,4 @@ var PaymentSchema = new Schema({
     },
 });
 
-module.exports = mongoose.model('Payment', PaymentSchema);
+module.exports = mongoose.model('Payment', paymentSchema);

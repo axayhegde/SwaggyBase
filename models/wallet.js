@@ -8,7 +8,7 @@ var WalletSchema = new Schema({
         index: {unique: true}
     },
     Customer_Id: {
-        type : mongoose.Schema.Types.String,
+        type : mongoose.Schema.Types.ObjectId,
         ref : 'customer'
     },
     Amount: {
